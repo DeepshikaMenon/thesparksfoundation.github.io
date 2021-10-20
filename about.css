@@ -1,0 +1,90 @@
+/*******Defaults******/
+nav, header, footer{
+  display: block;
+}
+body{
+  line-height: 0;
+  margin: 0;
+}
+/************NavBar************/
+nav{
+  width: 100%;
+  margin: 0;
+}
+nav ul {
+  background-color: yellow;
+  overflow: hidden;
+  margin: 0;
+  padding: 0;
+
+}
+ul.topnav li {
+  list-style: none;
+  float: left;
+}
+ul.topnav li.topnav-right {
+  float: right;
+}
+h1{
+  font-family: 'Teko', sans-serif;
+  font-size: 40px;
+  color: red;
+  padding: 19px;
+}
+ul.topnav li a {
+  font-size: 20px;
+  display: block;
+  text-decoration: none;
+  min-height: 16px;
+  text-align: center;
+  padding: 55px;
+  text-transform: uppercase;
+  color: red;
+}
+ul.topnav li a:hover {
+  color: black;
+}
+.borderImg{
+  border-radius: 600px;
+  width: 50px;
+  height: 50px;
+  border: 5px solid red;
+  padding: 20px;
+}
+.bgcolor{
+  height: 100vh;
+  margin: 0;
+  padding: 0;
+  background-image: linear-gradient(to bottom, yellow, white);
+}
+.square{
+  width: 1000px;
+  height: 500px;
+  background-image:linear-gradient(to bottom, red, pink);
+  position: absolute;
+  left: 0;
+  right: 0;
+  top: 0;
+  bottom: 0;
+  margin: auto;
+  box-shadow: black 4px 4px 4px 4px;
+}
+.borderImg1{
+  width: 400px;
+  height: 350px;
+  margin-left: 10px;
+  margin-top: 100px;
+}
+h2{
+  font-size: 37px;
+  color: yellow;
+  margin-top: -400px;
+  margin-left: 92px;
+}
+p{
+  font-size: 25px;
+  color: black;
+  margin-left: 415px;
+  margin-top: 70px;
+  line-height: 2em;
+}
